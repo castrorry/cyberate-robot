@@ -1,0 +1,26 @@
+{
+	"text": {
+		"ok": "*Sucesso!* _{{ok_value}}_",
+		"error_unknow": "*Erro desconhecido!* _{{err_value}}_",
+		"error_specified": "*Erro:* _{{err_value}}_",
+		"start": "",
+		"terms": "Estes são os termos de uso do grupo *{{group_title}}*, descumprir-los por total ou parcial pode ocasionar em restrições e banimentos termporários ou permanente.",
+		"new_chat_member": "Olá [{{name}}](tg://user?id={{user_id}}), bem vindo ao grupo *{{group_title}}.*{{alert}}",
+		"new_member_alert": "\n\n_Nota: Para se tornar um membro do grupo e poder enviar mensagens, você deve ler e concordar com nossos termos de uso._",
+		"channel_group_invite": "Para fazer parte do nosso *grupo*, deixamos um botão abaixo com o link de acesso.{{alert}}"
+	},
+	"answer" : {
+		"error_unknow": "Erro desconhecido! {{err_value}}",
+		"error_specified": "Erro: {{err_value}}",
+		"ok": "Sucesso! {{ok_value}}"
+	},
+	"list": {
+		"rules": [
+			"- Respeite os demais usuários do grupo. Ofenças de qualquer natureza são proibidas!\n",
+			"- Criticas serão permitidas desde que seu fundamento seja para insentivar e nao para desqualificar ou humilhar quem a recebe, ou seja, somente criticas construtivas.\n",
+			"- Não fique solicitando cargos a administradores constantemente, pois promoções de cargos serão atribuidas por competência. É um merito de quem a recebe.\n",
+			"- Não é permitido o compartilhamento de conteúdo inapropriado como: conteúdo adulto, violento, carding/fraudes, ou materiais que insentivam a praticas ilícitas.\n",
+			"- Mesmo que o contexto cujo o qual o grupo se atua, envolva à praticas de analise de vulnerabilidades, exploração de falhas e outros procedimentos hacking. Não insentivamos nem permitimos o uso de nosso material para fins ilícitos.\n"
+		]
+	}
+}
