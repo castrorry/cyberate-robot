@@ -1,7 +1,9 @@
-import { Context, Composer } from 'telegraf';
+import { Composer, Middleware, session } from 'telegraf';
+import { SceneContextMessageUpdate as Context } from 'telegraf/typings/stage';
 import { useConstants, Constants } from '@utils/constants';
 import { useTemplates, Templates, Render } from '@utils/templates';
-import { useSec } from '@controllers/authController';
+import { useSec, useRoute } from '@controllers/authController';
+import { useScene } from '@controllers/stageController';
 
 export interface ContextRobot extends Context {
   constants?: Constants;
@@ -9,19 +11,15 @@ export interface ContextRobot extends Context {
 }
 
 const Bot = new Composer<ContextRobot>(
-// Initial middlewares
+  // Initial middlewares
   useConstants(),
   useTemplates(require('./res/templates.json')),
-  useSec()
+  useSec(),
+  session(),
+  useScene(),
+  useRoute()
 );
 
-Bot.start((ctx) => {
-  ctx.replyWithMarkdown(Render(
-    ctx.templates?.text?.ok!,
-    {
-      ok_value: 'bot iniciado!'
-    }
-  ))
-});
+Bot.command('test', (ctx) => ctx.reply('testing'));
 
 export default Bot;

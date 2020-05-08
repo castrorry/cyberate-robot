@@ -6,6 +6,7 @@ interface TemplateText {
   error_unknow: string;
   error_specified: string;
   start: string;
+  end: string;
   terms: string;
   new_chat_member: string;
   new_member_alert: string;

@@ -43,6 +43,7 @@
     "baseUrl": "./",                       /* Base directory to resolve non-absolute module names. */
     "paths": {
       "@controllers/*": ["src/controllers/*"],
+      "@scenes/*": ["src/scenes/*"],
       "@services/*": ["src/services/*"],
       "@utils/*": ["src/utils/*"],
       "@bot": ["src/bot.ts"],

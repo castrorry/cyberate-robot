@@ -1,6 +1,7 @@
 import { Middleware } from 'telegraf';
 import { ContextRobot } from '@bot';
 import { Render } from '@utils/templates';
+import privateChat from './privateController';
 
 export function useAuthorize(...allowed: string[]): Middleware<ContextRobot> {
   return async (ctx, next) => {
@@ -70,6 +71,17 @@ export function useSec(): Middleware<ContextRobot> {
       } else if (ctx.updateType === 'callback_query') {
         ctx.answerCbQuery(Render<Result>(ctx.templates?.answer?.error_specified!, values));
       }
+    }
+  }
+}
+
+export function useRoute(): Middleware<ContextRobot> {
+  return (ctx, next) => {
+    if (ctx.chat?.type != "private") {
+      next();
+    } else {
+      let privateCtx = privateChat.middleware();
+      privateCtx(ctx, next);
     }
   }
 }

@@ -1,0 +1,5 @@
+- Respeite os demais usuários do grupo. Ofenças de qualquer natureza são proibidas!
+- Criticas serão permitidas desde que seu fundamento seja para insentivar e nao para desqualificar ou humilhar quem a recebe, ou seja, somente criticas construtivas.
+- Não fique solicitando cargos a administradores constantemente, pois promoções de cargos serão atribuidas por competência. É um merito de quem a recebe.
+- Não é permitido o compartilhamento de conteúdo inapropriado como: conteúdo adulto, violento, carding/fraudes, ou materiais que insentivam a praticas ilícitas.
+- Mesmo que o contexto cujo o qual o grupo se atua, envolva à praticas de analise de vulnerabilidades, exploração de falhas e outros procedimentos hacking. Não insentivamos nem permitimos o uso de nosso material para fins ilícitos.
