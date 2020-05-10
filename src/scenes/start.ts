@@ -1,11 +1,12 @@
 import { BaseScene } from "telegraf";
 import { ContextRobot } from '@bot';
 import { Render } from "@utils/templates";
+import { startController } from "@controllers/commandController";
 
 const startScene = new BaseScene<ContextRobot>('start');
 
 // Scene enter and exit event
-startScene.enter((ctx) => ctx.replyWithMarkdown(ctx.templates?.text?.start!));
+startScene.enter(startController());
 startScene.leave((ctx) => ctx.replyWithMarkdown(Render(ctx.templates?.text?.end!, { session_name: ctx.scene.current?.id })));
 
 // Scene commands
