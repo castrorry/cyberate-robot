@@ -5,7 +5,7 @@
 		"error_specified": "*Erro:* _{{err_value}}_",
 		"start": "Sessão *start* iniciada, invoque o comando /help para ver detalhes dessa sessão e os `comandos` disponiveis, e /end para encerrar esta sessão.",
 		"end": "Sessão *{{session_name}}* encerrada, invoque o comando /help para saber mais.",
-		"terms": "Estes são os termos de uso do grupo *{{group_title}}*, descumprir-los por total ou parcial pode ocasionar em restrições e banimentos termporários ou permanente.",
+		"terms": "Estes são os termos de uso do grupo, descumprir-los por total ou parcial pode ocasionar em restrições e banimentos termporários ou permanente.",
 		"new_chat_member": "Olá [{{name}}](tg://user?id={{user_id}}), bem vindo ao grupo *{{group_title}}.*{{alert}}",
 		"new_member_alert": "\n\n_Nota: Para se tornar um membro do grupo e poder enviar mensagens, você deve ler e concordar com nossos termos de uso._",
 		"channel_group_invite": "Para fazer parte do nosso *grupo*, deixamos um botão abaixo com o link de acesso.{{alert}}"
