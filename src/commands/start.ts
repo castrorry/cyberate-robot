@@ -1,5 +1,5 @@
-import { Middleware } from "telegraf";
-import { InlineKeyboardButton, Markup } from "telegraf/typings/markup";
+import { Middleware, Markup } from "telegraf";
+import { InlineKeyboardButton } from "telegraf/typings/markup";
 import { ContextRobot } from "@bot";
 import { RenderList } from "@utils/templates";
 

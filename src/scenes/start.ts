@@ -1,7 +1,6 @@
 import { BaseScene } from "telegraf";
 import { ContextRobot } from '@bot';
 import { Render } from "@utils/templates";
-import { start } from "@controllers/commandController";
 
 const startScene = new BaseScene<ContextRobot>('start');
 

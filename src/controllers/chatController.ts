@@ -1,4 +1,4 @@
-import { Middleware, Stage } from 'telegraf';
+import { Middleware } from 'telegraf';
 import { ContextRobot } from '@bot';
 import { Render } from '@utils/templates';
 import Supergroup from '@supergroup';
