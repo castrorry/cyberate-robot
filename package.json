@@ -2,7 +2,7 @@
   "name": "cyberate-robot",
   "main": "server.js",
   "description": "Cyberate robot telegram updates manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "engines": {
     "node": "14.2.0"
@@ -16,7 +16,9 @@
     "url": "https://github.com/castrorry/cyberate-robot"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "@types/express": "^4.17.6",
+    "axios": "^0.19.2",
     "cfenv": "^1.2.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

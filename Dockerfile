@@ -5,7 +5,7 @@ ADD package.json /app
 ADD server.ts /app
 ADD tsconfig.json /app
 
-RUN cd /app; npm i -G yarn; yarn
+RUN cd /app; npm install
 
 ENV NODE_ENV production
 ENV PORT 8080
