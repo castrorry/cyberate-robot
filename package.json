@@ -21,7 +21,7 @@
     "axios": "^0.19.2",
     "cfenv": "^1.2.2",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "telegraf": "^3.38.0",
     "ts-node": "^8.9.1",
     "tsconfig-paths": "^3.9.0",
